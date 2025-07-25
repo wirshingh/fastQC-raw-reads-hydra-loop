@@ -75,5 +75,5 @@ After the '=' copy full path to the directory that contains the raw reads.
 
 After the '=' copy the full path to the base directory. This is the directory where the output directory will be copied, and where the job file can be placed.
 
-After the job is edited save it as 'fastqc_loop.job' and run the job on hydra (qsub fastp_loop.job).
+After the job is edited save it as 'fastqc_raw_loop.job' and run the job on hydra (qsub fastqc_raw_loop.job).
 
